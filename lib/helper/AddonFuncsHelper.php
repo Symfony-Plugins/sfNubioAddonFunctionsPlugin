@@ -697,3 +697,11 @@ if( !function_exists( 'trim_extra_spaces' ) ) {
 		return preg_replace( '/\s{2,}/', ' ', $string ); 
 	}
 }
+
+if( !function_exists( 'add_include_path' ) ) {
+
+	function add_include_path( $path ) {
+		set_include_path( $path . PATH_SEPARATOR . get_include_path() );
+	}
+	
+}
