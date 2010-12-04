@@ -23,6 +23,7 @@
 	<license uri="http://www.symfony-project.org/license">MIT license</license>
 	<notes>
 * soxred93 - Add add_include_path() function
+* soxred93 - Add svn_info() function
 	</notes>
 
 	<contents>
@@ -143,9 +144,9 @@
 			</stability>
 			<license uri="http://www.symfony-project.org/license">MIT license</license>
 			<notes>
-		* soxred93 - Add functions
-		* soxred93 - Fix SVN structure
-		* soxred93 - Make README more organized in HTML
+* soxred93 - Add functions
+* soxred93 - Fix SVN structure
+* soxred93 - Make README more organized in HTML
 			</notes>
 		</release>
 	</changelog>

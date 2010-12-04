@@ -293,3 +293,12 @@ sfNubioAddonFunctionsPlugin includes various functions similar to array_*() func
   
         [php]
         add_include_path( '/path/to/directory/' );
+
+#### svn_info ####
+
+`svn_info` gets information about a Subversion repository. 
+
+  * Examples:
+  
+        [php]
+        svn_info( '/path/to/.svn' );

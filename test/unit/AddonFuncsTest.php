@@ -269,3 +269,7 @@ $old_path = get_include_path();
 add_include_path( sys_get_temp_dir() );
 
 $t->is( get_include_path(), sys_get_temp_dir() . PATH_SEPARATOR . $old_path , 'Correctly sets include path' );
+
+$t->info( '22 - svn_info()' );
+
+$t->comment( '  No tests available, no way to test this' );
